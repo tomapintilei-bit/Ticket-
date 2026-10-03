@@ -1,16 +1,16 @@
 {
-  "name": "ticket-bot-ultra",
+  "name": "zeyo-ticket",
   "version": "1.0.0",
-  "description": "Cel mai performant sistem de tickete",
-  "main": "index.js",
+  "description": "ZEYO Premium Discord Ticket System",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "express": "^4.18.2",
-    "discord-html-transcripts": "^3.2.0",
-    "dotenv": "^16.4.1"
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
-
